@@ -19,6 +19,8 @@ public class FileReaderHomework {
                     tekSayilar[tekArray++] = sayi;
                 }
             }
+             Arrays.sort(ciftSayilar);
+             Arrays.sort(tekSayilar);
             System.out.print("Tek sayılar:");
             for (int i = 0; i < tekArray; i++) {
                 System.out.println(tekSayilar[i]);
